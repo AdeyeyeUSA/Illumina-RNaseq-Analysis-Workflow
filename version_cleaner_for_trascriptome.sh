@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -E 's/(\|?ENSMUS[TG][0-9]+)\.[0-9]+/\1/g' /home/ade/Nanopore/Isoformswitch_trial/gencode.vM36.transcripts.fa > /home/ade/Nanopore/Isoformswitch_trial/gencode.vM36.transcripts.cleaned_all.fa
